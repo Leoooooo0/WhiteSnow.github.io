@@ -1,0 +1,240 @@
+body {
+    color: #323232;
+    background-color:lightgrey;
+    line-height: 1.5;
+}
+
+#container {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    padding: auto;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header img {
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+a:link {
+    color: #004e9a;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #513485;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+    background-color: #513485;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fff;
+    background-color: lightgrey;
+    text-decoration:double;
+}
+
+body nav {
+    float:left;
+    margin: 3em 0 0 0;
+    padding: 0 1em .5em 0;
+}
+
+body nav a {
+    text-decoration: none;
+    padding: .1em .5em .1em .5em;
+    display: inline-flex;
+    border-radius: .2em;
+    border: #fff solid .02em;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0%;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+}
+
+#FB {
+    text-align: center;
+    margin: 3em 0 2em 2em;
+    padding: 0 1em 0 0;
+}
+
+#FB a:hover {
+    background-color: lightgrey;
+}
+
+#FBlogo {
+    width: 10%;
+    height: auto;
+    border: #fff solid .02em;
+}
+
+footer{
+    background-color: lightgrey;
+    color: #323232;
+    font-size: x-small;
+    margin: 10em 0 1.5em 0;
+    padding: .2em;
+    text-align: center;
+    border-top: #323232 .02em solid;
+    border-bottom: #323232 .02em solid;
+    float: center;
+    clear: both;
+}
+
+#contact_image {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    padding: 0%;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#contact_fb {
+    width: 10%;
+    height: auto;
+    margin: auto;
+    padding: 0%;
+    align-items: center;
+}
+
+#main {
+    color: #45758a
+}
+
+ul li {
+    text-decoration: none;
+    display: flex;
+    margin: .5em 0 1em 0;
+    padding: 0 1em 0 1em;
+    border: #513485 solid .01em;
+    width: auto;
+    height: auto;
+    border-style: none;
+    text-align: center;
+    text-shadow: #004e9a;
+}
+
+h2 {
+    color: #45758a
+}
+
+#main a:hover {
+    color: #004e9a;
+    background-color: lightgrey;
+}
+
+#sub_nav {
+    float: left;
+    display: vertical;
+    padding: 0;
+    margin: 2em .5em 2em .5em;
+    clear: right;
+    width: 20%;
+
+}
+
+.shopPics {
+    width: 20%;
+    height: auto;
+    margin: .5em .5em .5em;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+@media only screen and (max-width: 1280px) {
+    #container {
+        width: 90%;
+    }
+    main img {
+        width: 90%;
+        border:#004e9a .3em solid;
+    }
+    #FB {
+        margin-left: 1em;
+    }
+    footer {
+        margin: 3em 0 1em 0;
+    }
+    #contact_image {
+        width: 100%;
+    }
+    .shopPics {
+        width: 45%;
+        margin: .5em 0;
+    }
+    #sub_nav a{
+        border:  #fff solid .02em;
+        margin-top: .5em;
+        padding: .2em;
+        border-radius: .2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+    header img {
+        width: 50%;
+    }
+    body nav {
+        float: none;
+        margin: 1em 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    body nav a{
+        margin: .2em;
+        text-align: center;
+        display: inline-flex;
+    }
+    main img {
+        width: 100%;
+        border:lightgoldenrodyellow .03em solid;
+    }
+    #FB {
+        margin: 2em 0 1em 0;
+        text-align: center;
+    }
+    footer {
+        margin: 2em 0 1em 0;
+    }
+    #contact_image {
+        width: 100%;
+        margin-top: 1em;
+    }
+    #contact_fb {
+        width: 20%;
+    }
+    #sub_nav {
+        width: 100%;
+        margin: 1em 0 0 0;
+        display: inline-flex;
+    }
+    .shopPics {
+        width: 100%;
+        margin: .5em 0;
+    }
+}
+
